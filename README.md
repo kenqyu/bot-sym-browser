@@ -11,7 +11,7 @@ Other contexts can be implemented fairly easily through the bot’s modular desi
 
 ####Modification Instructions
 
-Navigate to [symbrowser.properties](https://github.com/symphonyoss/bot-sym-browser/blob/master/src/resources/symbrowser.properties) under "bot-sym-browser/src/resources" and modify all custom fields that are indicated with capital letters inside "[]". Add your Symphony-specific ".p12" keystore file to this "resources" directory as well.
+Navigate to [symbrowser.properties](https://github.com/symphonyoss/bot-sym-browser/blob/master/src/resources/symbrowser.properties) under "bot-sym-browser/src/resources" and modify all custom fields that are indicated with capital letters inside "[]". Add your Symphony-specific ".p12" certificate file to this "resources" directory as well.
 
 
 ####Run Instructions
@@ -26,7 +26,7 @@ Navigate to [symbrowser.properties](https://github.com/symphonyoss/bot-sym-brows
 
 - Modify [symbrowser.properties](https://github.com/symphonyoss/bot-sym-browser/blob/master/src/resources/symbrowser.properties) (filepath: "bot-sym-browser/src/resources/symbrowser.properties") with custom URLs and API Keys) 
 
-- Make sure to add your Symphony keystore file inside the "resources" directory ("bot-symbrowser/src/resources/") with "symphony-bot-user.p12" as the file name
+- Make sure to add your Symphony certificate file inside the "resources" directory ("bot-symbrowser/src/resources/") with "symphony-bot-user.p12" as the file name
 
 - Run the main method of 'SymBrowserBot.java'
 
